@@ -1,86 +1,27 @@
-$font-text: 'Roboto';
+@import "variables";
+@import "layout";
+@import "normalize";
 
-.container {
-    position: relative;
-    width: 1440px;
-    height: 960px;
-    background: #FFFFFF;
-}
+/* Components */
+@import "components/image";
+@import "components/text";
+@import "components/button";
 
-
-.image {
-    img {
-        position: absolute;
-        width: 505px;
-        height: 330px;
-        left: 230px;
-        top: 96px;
-    }
-}
-
-.text {
-    h2 {
-        position: absolute;
-        width: 380px;
-        height: 50px;
-        left: calc(50% - 380px/2 + 300px);
-        top: calc(50% - 50px/2 - 319px);
-        font-family: $font-text;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 42px;
-        line-height: 120%;    
-        color: #121212;
-    }
-
-    p {
-        position: absolute;
-        width: 380px;
-        height: 96px;
-        left: calc(50% - 380px/2 + 300px);
-        top: calc(50% - 96px/2 - 222px);
-        font-family: $font-text;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 16px;
-        line-height: 150%;   
-        color: #121212;
-    }
-}
+/* Sections */
+@import "sections/container";
 
 
-.btn {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 16px 40px;
-gap: 10px;
-position: absolute;
-width: 128px;
-height: 48px;
-left: 830px;
-top: 338px;
-background: #E4C1AE;
-border-radius: 32px;
-cursor: pointer;
-border-color: #E4C1AE;
-border-style: none;
 
-    a { 
-        width: 48px;
-        height: 16px;
-        font-family: $font-text;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 100%;
-        text-decoration: none;
-        color: #FFFFFF;
-        flex: none;
-        order: 0;
-        flex-grow: 0;
-    }
-}
+
+
+
+
+
+
+
+
+
+
 
 
 

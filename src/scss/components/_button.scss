@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 40px;
+    gap: 10px;
+    position: absolute;
+    width: 128px;
+    height: 48px;
+    left: 830px;
+    top: 338px;
+    background: $button-color;
+    border-radius: 32px;
+    cursor: pointer;
+    border-color: $button-color;
+    border-style: none;
+    
+        a { 
+            width: 48px;
+            height: 16px;
+            font-family: $font-style;
+            font-style: normal;
+            font-weight: 700;
+            font-size: $font-text;
+            line-height: 100%;
+            text-decoration: none;
+            color: $background-color;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+    }
