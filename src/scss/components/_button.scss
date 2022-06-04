@@ -30,3 +30,15 @@
             flex-grow: 0;
         }
     }
+
+    @media (max-width: 576px) {
+        .btn {
+            left: 750px;
+        }
+    }
+
+    @media (max-width: 360px) {
+        .btn {
+            left: 630px;
+        }
+    }

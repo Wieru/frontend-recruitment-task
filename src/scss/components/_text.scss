@@ -26,5 +26,26 @@
         line-height: 150%;   
         color: #121212;
     }
+    @media (max-width: 576px) {
+        h2 {
+            left: 750px;
+        }
+
+        p {
+            left: 750px;
+        }
+    }
+
+    @media (max-width: 360px) {
+        h2 {
+            left: 630px;
+        }
+
+        p {
+            left: 630px;
+        }
+    }
 }
+
+
 

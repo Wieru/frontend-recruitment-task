@@ -6,4 +6,10 @@
         left: 230px;
         top: 96px;
     }
+
+    @media (max-width: 576px) {
+        img {
+            width: auto;
+        }
+    }
 }

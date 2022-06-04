@@ -4,3 +4,9 @@
     height: 960px;
     background: $background-color;
 }
+
+@media (max-width: 359px) {
+    .container {
+        width: 1000px;
+    }
+}
