@@ -1,3 +1,5 @@
+https://wieru.github.io/frontend-recruitment-task/
+
 # Zadanie rekrutacyjne GravityGlobal na frontend developera
 
 ## Informacje wstępne
